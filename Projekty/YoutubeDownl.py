@@ -1,13 +1,14 @@
 from pytube import YouTube
 
-link = ("https://www.youtube.com/watch?v=EAYlckSaviI")
-yt = YouTube(link)
-video = yt.streams.all()
-vid = list(enumerate(video))
-for i in vid:
-    print (i)
-print()
+def pobierz_film(url, sciezka):
+    try:
+        video = YouTube(url)
+        video.streams.get_highest_resolution().download(output_path=sciezka)
+        print("Pobieranie zakończone pomyślnie!")
+    except Exception as e:
+        print("Wystąpił błąd podczas pobierania filmu:", str(e))
 
-strm = int(input("enter:"))
-video[strm].download()
-print("Succesull")
+
+url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+sciezka = "D:/downloads"
+pobierz_film(url, sciezka)
