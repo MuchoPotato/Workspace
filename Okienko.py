@@ -5,6 +5,7 @@ def my_function():
     return result
 
 root = Tk()
+
 root.title("Function Result")
 
 result_label = tk.Label(root, text="The result is: " + str(my_function()))
