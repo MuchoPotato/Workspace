@@ -1,0 +1,47 @@
+total bytecount: 22781
+file list: 
+-------------------- 
+cezar.py
+Cwiczenie#1.py
+Def.py
+dicindic.py
+dictionery s³ownik.py
+Dodawanie.py
+Formu³y IF.py
+Imie.py
+KotPies.py
+krotka.py
+listy - operacje i funkcje.py
+Listy.py
+MaleDuze.py
+Objekty i Klasy.py
+odwrotny.py
+Okienko.py
+Operacje _na_Plikach&Zip.py
+operatory matematyczne.py
+Pentagon.py
+Pesel.py
+PeselTest.py
+Petla.py
+popitem.py
+PracaNaPliku.py
+processingdic.py
+PytanieOImie.py
+Quiz.py
+Reversed.py
+Sety Listy Krotki Slowniki Zbiory.py
+slownik.py
+sortowanie.py
+temp.py
+temp2.py
+temp3.py
+temp4.py
+test if.py
+test range.py
+textfile.txt
+Turtle.py
+typy-zagniezdzone.py
+typy.py
+VAT.py
+wyra¿enia listowe.py
+æwiczenie listy.py
